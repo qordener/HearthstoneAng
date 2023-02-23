@@ -1,0 +1,8 @@
+[
+  { "type": "", "name": "All", "default": true },
+  { "type": "dragon", "name": "Dragon", "default": false },
+  { "type": "undead", "name": "Undead", "default": false },
+  { "type": "murloc", "name": "Murloac", "default": false },
+  { "type": "demon", "name": "Demon", "default": false },
+  { "type": "elemental", "name": "Elemental", "default": false }
+]

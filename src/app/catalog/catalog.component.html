@@ -1,1 +1,14 @@
-<p>catalog works!</p>
+<select [(ngModel)]="currentType">
+  <option *ngFor="let currentType of types" value="{{ currentType.type }}">
+    {{ currentType.name }}
+  </option>
+</select>
+<div class="board">
+  <app-card
+    *ngFor="let currentCard of list | cardType : currentType"
+    [data]="currentCard"
+    [flipped]="false"
+    class="board"
+    [zoom]="0.5"
+  ></app-card>
+</div>

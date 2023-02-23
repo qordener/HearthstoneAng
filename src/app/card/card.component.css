@@ -7,7 +7,7 @@
   height: 573px;
   transform-style: preserve-3d;
   position: relative;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 .face {
